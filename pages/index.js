@@ -10,6 +10,7 @@ import Header from "./header";
 import AboutMe from "./aboutMe";
 import Experience from "./ experience";
 import FavouriteTec from "./favouriteTec";
+import Portfolio from "./portfolio";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -39,12 +40,17 @@ export default function Home() {
 
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
+          {/* Header */}
           <Header />
+          {/* AboutMe */}
           <AboutMe />
+          {/* links */}
           {links}
         </section>
+        <Portfolio />
         {/* experince */}
         <Experience />
+        {/* FavouriteTec */}
         <FavouriteTec />
       </main>
     </div>
