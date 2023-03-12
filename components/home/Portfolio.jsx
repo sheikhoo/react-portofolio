@@ -1,6 +1,6 @@
-import Image from "next/image";
-import React from "react";
-import Csp from "../public/img/CSP.png";
+import Image from 'next/image';
+import React from 'react';
+import Csp from '../../public/img/CSP.png';
 export default function Portfolio() {
   return (
     <section>
@@ -24,7 +24,7 @@ export default function Portfolio() {
             class="mx-auto max-w-sm shadow-xl bg-cover bg-center min-h-150 transform duration-500 hover:-translate-y-2 cursor-pointer group"
             style={{
               backgroundImage:
-                " url(https://github.com/cherikcoders/react-portofolio/blob/main/1.png?raw=true)",
+                ' url(https://github.com/cherikcoders/react-portofolio/blob/main/1.png?raw=true)',
             }}
           >
             <div class="bg-black bg-opacity-20 min-h-150 px-10 flex flex-wrap flex-col pt-96 hover:bg-opacity-75 transform duration-300">

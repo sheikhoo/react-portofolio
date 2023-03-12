@@ -1,7 +1,7 @@
 import React from 'react';
-import Me from '../public/img/me.jpg';
+import Me from '../../public/img/me.jpg';
 import Image from 'next/image';
-import info from '../utils/info';
+import info from '../../utils/info';
 
 export default function AboutMe() {
   return (
