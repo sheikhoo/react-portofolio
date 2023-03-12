@@ -1,6 +1,6 @@
-import React from "react";
-import Me from "../public/img/me.jpg";
-import Image from "next/image";
+import React from 'react';
+import Me from '../public/img/me.jpg';
+import Image from 'next/image';
 
 export default function AboutMe() {
   return (
@@ -9,7 +9,7 @@ export default function AboutMe() {
         محمد صادق شیخ زاهدی
       </h2>
       <div className="relative mx-auto mt-5 w-36 h-36">
-        <Image src={Me} className="rounded-full" />
+        <Image src={Me} className="rounded-full" alt="my image" />
       </div>
       <h3 className="text-2xl md:text-3xl py-2 dark:text-white">
         Full-Stack Developer
