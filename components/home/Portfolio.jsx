@@ -1,12 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import Csp from "../public/img/CSP.png";
-import Mresalat from "../public/img/mresalat.png";
-import Mbazar from "../public/img/mbazar.png";
-import Mhesam from "../public/img/mhesam.png";
-import MbazarMini from "../public/img/mbazarMini.png";
-import MhesamMini from "../public/img/mhesamMini.png";
-import MresalatMini from "../public/img/mresalatMini.png";
+import Mresalat from "../../public/img/mresalat.png";
+import Mbazar from "../../public/img/mbazar.png";
+import Mhesam from "../../public/img/mhesam.png";
+import MbazarMini from "../../public/img/mbazarMini.png";
+import MhesamMini from "../../public/img/mhesamMini.png";
+import MresalatMini from "../../public/img/mresalatMini.png";
 export default function Portfolio() {
   return (
     <section>
