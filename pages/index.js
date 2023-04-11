@@ -1,16 +1,16 @@
-import Head from 'next/head';
+import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
   AiFillGithub,
-} from 'react-icons/ai';
-import { useState } from 'react';
-import AboutMe from '../components/home/AboutMe';
-import Experience from '../components/home/Experience';
-import FavouriteTec from '../components/home/FavouriteTec';
-import Portfolio from '../components/home/Portfolio';
-import Header from '../components/Header';
+} from "react-icons/ai";
+import { useState } from "react";
+import AboutMe from "../components/home/AboutMe";
+import Experience from "../components/home/Experience";
+import FavouriteTec from "../components/home/FavouriteTec";
+import Portfolio from "../components/home/Portfolio";
+import Header from "../components/Header";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,7 +31,7 @@ export default function Home() {
     </div>
   );
   return (
-    <div className={darkMode ? 'dark' : ''}>
+    <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>M.Sadegh Sheikh Zahedi</title>
         <meta name="description" content="M.Sadegh Sheikh Zahedi Portofolio" />
@@ -41,7 +41,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           {/* Header */}
-          <Header />
+          <Header setDarkMode={setDarkMode} darkMode={darkMode} />
           {/* AboutMe */}
           <AboutMe />
           {/* links */}

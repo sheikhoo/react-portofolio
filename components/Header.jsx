@@ -1,7 +1,7 @@
 import React from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
-export default function Header() {
+export default function Header({ setDarkMode, darkMode }) {
   return (
     <nav className="py-10 mb-12 flex justify-between">
       <h1 className="text-xl font-yekan dark:text-white">شیخم :)</h1>

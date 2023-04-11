@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
-import Csp from '../../public/img/CSP.png';
-import Fardup from '../../public/img/FARDUP.png';
-import Iccima from '../../public/img/ICCIMA.png';
+import Image from "next/image";
+import React from "react";
+import Csp from "../../public/img/CSP.png";
+import Fardup from "../../public/img/FARDUP.png";
+import Iccima from "../../public/img/ICCIMA.png";
 
 export default function Experience() {
   return (
